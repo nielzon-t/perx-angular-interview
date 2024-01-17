@@ -1,0 +1,17 @@
+/* table-view.component.scss */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+
+  table {
+    width: 100%;
+  }
+
+  th.mat-header-cell, td.mat-cell {
+    padding: 8px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+}
