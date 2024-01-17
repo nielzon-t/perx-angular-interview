@@ -1,0 +1,45 @@
+.navbar-container {
+  display: flex;
+  justify-content: flex-end; // Align items to the right on larger screens
+  align-items: center; // Center vertically
+  background: #363434;
+  color: #ffffff;
+}
+
+.navbar-items {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin: 0 10px; // Add margin between items
+  transition: color 0.3s;
+}
+
+.navbar-item a {
+  text-decoration: none; // Remove underlines from links
+  color: inherit; // Inherit color from parent
+}
+
+.navbar-item:hover {
+  color: #05f75a; // Change color on hover // Add black-ish text shadow on hover
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-container {
+    justify-content: flex-start;
+  }
+
+  .navbar-item {
+    margin: 5px 0; // Adjust spacing for mobile
+  }
+}

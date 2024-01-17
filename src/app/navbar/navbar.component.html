@@ -1,0 +1,10 @@
+<div class="navbar-container" *ngIf="currentRoute !== '/landing-page'" [@fadeInOut]>
+  <ul class="navbar-items">
+    <li class="navbar-item" (mouseenter)="itemStates[0] = 'active'" (mouseleave)="itemStates[0] = 'inactive'" [@glow]="itemStates[0]"><a routerLink="/landing-page">Home</a></li>
+    <li class="navbar-item" (mouseenter)="itemStates[1] = 'active'" (mouseleave)="itemStates[1] = 'inactive'" [@glow]="itemStates[1]"><a routerLink="/table-view">Table View</a></li>
+    <li class="navbar-item" (mouseenter)="itemStates[2] = 'active'" (mouseleave)="itemStates[2] = 'inactive'" [@glow]="itemStates[2]"><a routerLink="/directive-demo">Directive Demo</a></li>
+  </ul>
+</div>
+
+
+

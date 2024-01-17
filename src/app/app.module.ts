@@ -13,13 +13,17 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { TableViewComponent } from './table-view/table-view.component';
 import { DirectiveDemoComponent } from './directive-demo/directive-demo.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AppCustomDirectiveDirective } from './app-custom-directive.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     TableViewComponent,
-    DirectiveDemoComponent
+    DirectiveDemoComponent,
+    NavbarComponent,
+    AppCustomDirectiveDirective
   ],
   imports: [
     BrowserModule,
