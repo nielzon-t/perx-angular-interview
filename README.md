@@ -1,27 +1,69 @@
-# PerxAngularInterview
+# Perx - Mini Angular Dashboard Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+## Overview
 
-## Development server
+This is a mini dashboard project built with Angular, Angular Material, SCSS, and other libraries. It features a landing page, a navigation bar with animations, and two additional routes for displaying data in a table and demonstrating the use of directives.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Before you begin, ensure you have met the following requirements:
 
-## Build
+- Node.js and npm installed on your machine.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+To run this project locally, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone this repository to your local machine:
 
-## Running end-to-end tests
+```git clone https://github.com/your-username/mini-dashboard.git```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navigate to the project directory:
 
-## Further help
+```cd mini-dashboard```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Install the project dependencies:
+
+```npm install```
+
+4. Start the development server:
+
+```ng serve```
+
+5. Open your web browser and access the application at http://localhost:4200.
+
+## Features
+
+### Landing Page
+- A visually appealing landing page with a full-page image.
+- A single button to proceed to the table view.
+
+### Navigation Bar
+- A navigation bar that appears on all routes except the landing page.
+- Angular animations for smooth transitions.
+- Responsive design for various screen sizes.
+
+### Table View
+- A table displaying example JSON data.
+- Filtering and sorting capabilities.
+- Responsive design for data presentation.
+
+### Directive Demo
+- A route demonstrating the use of custom directives.
+- A styled <div> with default and custom text content.
+- Angular directive applied to modify text content on click.
+
+## Customization
+
+You can customize the project by:
+
+- Replacing the example JSON data with your dataset.
+- Enhancing the styling and theming to match your preferences.
+- Adding more features, animations, or interactive elements.
+
+## Acknowledgments
+This project was created as part of a skills assessment for an application at Serviceburo - Perx.
+Thanks to Angular and Angular Material for providing the tools to build web applications.
+Feel free to reach out with any questions or feedback!
